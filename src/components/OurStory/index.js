@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import RBLogo from '../../assets/rb.svg';
 
 class OurStory extends Component {
   render() {

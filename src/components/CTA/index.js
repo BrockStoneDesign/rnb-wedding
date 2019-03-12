@@ -6,17 +6,16 @@ class CTA extends Component {
     return (
       <div class="parent">
 		  <div class="column main">
-		  	<img src={RBLogo} className="App-logo" alt="logo" />
+		  	<img width={150} src={RBLogo} className="App-logo" alt="logo" />
 
 		  	<div className='welcome-desc'>
-		  		<h1>Rhylee &amp; Brock</h1>
-		  		<h4>invite you to their <br /><span className='bold'>Happily Ever After party!</span></h4>
+		  		
+		  		<h1>Rhylee<br/>&amp;<br/>Brock</h1>
+		  			
 		  		
 
-		  		<p className='uppercase bold'>Tuesday, May 14th, 2019 @5:30PM</p>
+		  		<p>Rhylee and Brock are getting married... Again!</p>
 
-		  		<h4 className='bold'>Stonewater</h4>
-		  		<p className='uppercase bold'>1517 Broad St, Greensburg, PA 15601</p>
 		  		<button className='button' onClick={()=>console.log('CLICKED')}>read our stroy</button>
 		  	</div>
 		  </div>
