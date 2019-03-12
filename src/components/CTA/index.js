@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import RBLogo from '../../assets/rb.svg';
+import Countdown from '../CountDown'
 
 class CTA extends Component {
   render() {
@@ -12,6 +13,7 @@ class CTA extends Component {
 		  		
 		  		<h1>Rhylee<br/>&amp;<br/>Brock</h1>
 		  		<p>We're getting married... Again!</p>
+		  		<Countdown date={`2019-05-14T00:00:00`} />
 
 		  		<button className='button' onClick={()=>console.log('CLICKED')}>read our story</button>
 		  	</div>
