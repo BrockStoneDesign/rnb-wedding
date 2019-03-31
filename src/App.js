@@ -1,14 +1,24 @@
 import React, { Component } from 'react';
+
+// Styling Imports
 import './simple-grid.css'
 import './App.css';
-import CTA from './components/CTA'
-import OurStory from './components/OurStory'
-import Accomodations from './components/Accomodations'
+
+// Import Assets
 import RBLogo from './assets/rb.svg';
+
+// Import Components
+import CTA from './components/CTA'
 import Countdown from './components/CountDown'
+import OurStory from './components/OurStory'
+import TheBigDay from './components/TheBigDay'
+import SocialBar from './components/SocialBar'
+import Accomodations from './components/Accomodations'
+
 
 class App extends Component {
 
+	// Rhylees example into Programming :) 
 	iLove(name) {
 		let phrase = 'I love '+name+' !'
 		console.log(phrase)
@@ -45,7 +55,13 @@ class App extends Component {
        		{/* <CTA />*/}
         	<OurStory />
 
-        	{/* <CTA />*/}
+        	{/* Big Day */}
+        	<TheBigDay />
+
+        	{/* Social */}
+        	<SocialBar />
+
+        	{/* Accomodations */}
         	<Accomodations />
 
       </div>
