@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/rnb-wedding.git/precache-manifest.f4a0d2e7788ebecb365c20164e9966e8.js"
+  "/rnb-wedding/precache-manifest.743273222eb1051fe2f329f188780fb5.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/rnb-wedding.git/index.html", {
+workbox.routing.registerNavigationRoute("/rnb-wedding/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
