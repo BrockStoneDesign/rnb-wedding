@@ -8,8 +8,16 @@ GLOBALS
 }
 
 body{
-  font-size: 16px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
 }
+
+body {
+ font-family: 'Lato', sans-serif;
+ font-weight: 300;
+}
+
 
 h1 { font-size: 50px;}
 h2 { font-size: 42px;}
@@ -18,16 +26,49 @@ h4 { font-size: 24px;}
 h5 { font-size: 12px;}
 h6 { font-size: 10px;}
 h1,h2,h3,h4,h5,h6{
-  font-family: 'Libre Baskerville', serif;
-  text-transform: uppercase;
+  font-family: 'Prata', serif;
   letter-spacing: 5px;
+}
+hr {
+    height: 1px;
+    color: #d2d3d8;
+    background: #d2d3d8;
+    font-size: 0;
+    border: 0;
+}
+a{
+  font-size: 1.3em;
+  font-family: 'Prata', serif;
+  letter-spacing: 1px;
+  color: #b58854;
+}
+.card{
+  background: rgba(255,255,255,0.93);
+  padding: 3em;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+
+}
+.title-header{
+  text-transform: uppercase;
+  color: #b58854;
+  font-size: 15px;
+  margin-bottom: -25px;
+}
+
+#us-header{
+  font-size: 5em;
+  line-height: 70px;
+  /*transform: rotate(-5deg);*/
 }
 
 p{
-  font-family: 'Montserrat', sans-serif;
+font-family: 'Lato', sans-serif;
   font-size: 20px;
 }
-
+.main-section{
+  min-height: 100vh;
+  padding: 15vh 0;
+}
 .uppercase{
   text-transform: uppercase;;
 }
@@ -43,7 +84,8 @@ p{
   display: inline-block;
   font-size: 16px;
   text-transform: uppercase;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
   letter-spacing: 2px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
@@ -57,6 +99,136 @@ p{
 }
 
 /* -----------------------------------
+MAIN Navigation bar
+----------------------------------- */
+.Navbar {
+  display: flex;1111
+  height: 65px;
+  padding: 0px 2em;
+  font-family: sans-serif;
+  color: blue;
+  position: fixed;
+  width: 100%;
+}
+.Navbar__Link {
+  padding-right: 30px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+.Navbar__Items {
+  display: flex;
+
+}
+.Navbar__Items--right {
+  margin-left:auto;
+}
+.Navbar__Link-toggle {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .Navbar__Items,
+  .Navbar {
+    flex-direction: column;
+  }
+.Navbar__Items {
+    display:none;
+  }
+.Navbar__Items--right {
+    margin-left:0;
+  }
+.Navbar__ToggleShow {
+    display: flex;
+  }
+.Navbar__Link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+   } 
+}
+
+/* -----------------------------------
+MAIN
+----------------------------------- */
+#main-nav{
+  float: left;
+  padding: 2em;
+  height: 60px;
+}
+.main-sec{
+  background: linear-gradient(#fff, rgba(255,255,255,0.43), #fff), url('./assets/splash.jpg') no-repeat center;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#ceremony-bg{
+  background: linear-gradient(#fff, rgba(255,255,255,0.43), #fff), url('./assets/stv.jpeg') no-repeat center;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cta-left,#cta-right {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#cta-right{
+  /*box-shadow: 0px 3px 15px rgba(0,0,0,0.2);*/
+}
+
+#cta-left{
+  text-align: center;
+  width: 37%;
+  background-image: url('./assets/agate-pink.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  padding: 3em 3em;
+  position:relative;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+#cta-right{
+  margin-left: -50px;
+  width: 40%;
+  height: 90vh;
+  background-image: url('./assets/splash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -20px 0px -20px -50px;
+}
+
+#getting-married{
+  margin: 0 50px 2em;
+  padding: 2px 0px;
+  border-top: 1px solid #052236;
+  border-bottom: 1px solid #052236;
+}
+
+#getting-married p{
+  font-family: 'Prata', serif;
+  font-size: 18px;
+}
+
+/* -----------------------------------
 CTA
 ----------------------------------- */
 .column {
@@ -64,7 +236,6 @@ CTA
   float: left;
   width: 100%;
   color: #000;
-  font-size: 45px;
   height: 100vh;
 }
 
@@ -75,7 +246,7 @@ CTA
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  padding: 1em;
+  padding: 2em;
 }
 
 .sidebar {
@@ -84,6 +255,31 @@ CTA
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+}
+
+/*COUNTDOWN*/
+.countdown{
+  margin: 10px auto;
+  padding-bottom: 20px;
+}
+
+.countdown-col{
+  display: inline-block;
+}
+
+.countdown-col-element{
+  display: inline-block;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.countdown-col-element strong{
+  font-size: 30px;
+}
+
+.countdown-col-element span{
+  font-size: 20px;
 }
 
 
@@ -106,25 +302,31 @@ OUR STORY
   padding: 1em 0;
 }
 
-/*COUNTDOWN*/
-.Countdown{
-  margin: 10px auto;
-  padding-bottom: 20px;
+/*Story*/
+#our-story-pic{
+  height: 75vh;
+   transform: rotate(3deg);
+  background: url('./assets/rnb-brew.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
 
-.Countdown-col{
-  display: inline-block;
+#our-story-pic:hover{
+  transform: scale(1.1);
+  transition-duration: .5s;
 }
 
-.Countdown-col-element{
-  display: inline-block;
-  margin: 0 20px;
-  display: flex;
-  flex-direction: column;
-}
+#big-day-bg{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: url('./assets/stv.jpeg');
+    background-position: 70% 35%;
 
-.Countdown-col-element strong{
-  font-size: 50px;
 }
 
 
