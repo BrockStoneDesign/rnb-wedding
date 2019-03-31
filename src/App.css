@@ -192,7 +192,7 @@ MAIN
 }
 
 #ceremony-bg{
-  background: linear-gradient(#fff, rgba(255,255,255,0.43), #fff), url('./assets/stv.jpeg') no-repeat center;
+  background: linear-gradient(#fff, rgba(255,255,255,0.63), #fff), url('./assets/stv.jpeg') no-repeat center;
   min-height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -320,7 +320,7 @@ OUR STORY
 /*Story*/
 #our-story-pic{
   height: 75vh;
-   transform: rotate(3deg);
+  transform: rotate(3deg);
   background: url('./assets/rnb-brew.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -341,7 +341,10 @@ OUR STORY
     height: 100%;
     background: url('./assets/stv.jpeg');
     background-position: 70% 35%;
+}
 
+#accomodations-bg{
+  
 }
 
 

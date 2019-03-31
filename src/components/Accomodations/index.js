@@ -9,7 +9,7 @@ class Accomodations extends Component {
                     
                     <div className='col-12'>
                         <h4 className='title-header'>Plan your stay with us!</h4>
-                        <h2>Accomodations</h2>
+                        <h2>Your Accomodations</h2>
                     </div>      
 
                     <div className="col-6">
@@ -43,8 +43,13 @@ class Accomodations extends Component {
                             <h3>The Hotel</h3>
                             
                             <hr/>
-                            <p><strong>Courtyard by Marriott Pittsburgh Greensburg</strong></p>
-                            <p>We have set aside a block of rooms for our guests. Please tell the receptionist you're with the <strong>Stone party when booking</strong>.</p>
+                            <p><strong>Courtyard by Marriott<br/>Pittsburgh ~ Greensburg</strong></p>
+                            <p>We have set aside a block of rooms for our guests. Please tell the receptionist you're with the <strong>Stone Party</strong> when booking.</p>
+
+                            <div id='airport-sec'>
+                                <p><strong>Courtyards FREE Shuttle service!</strong></p>
+                                <p>The hotel also offers a shuttle service which can take you to and from the 'Happily Ever After Party' (However, you will need to consider transport to / from the Church)</p>
+                            </div>
                             
                             <a href='tel:7248343555'><i class="fas fa-phone"></i> Call to book a room now <i class="fas fa-long-arrow-alt-right"></i></a>
                             <a href='https://www.marriott.com/hotels/travel/pitgb-courtyard-pittsburgh-greensburg/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2'><i class="fab fa-chrome"></i> marriott.com</a>
@@ -52,7 +57,6 @@ class Accomodations extends Component {
                         </div>
                     </div>
 
-                
                 </div>
             </div>
         </div>

@@ -15,7 +15,7 @@ class Accomodations extends Component {
         <div className="col-6">
         <div className='card'>
           <i class="fas fa-church fa-3x"></i>
-        	<h4 className='title-header'>The blessing</h4>
+        	<h4 className='title-header'>The Blessing</h4>
         	<h3>1. Our Ceremony</h3>
           <hr/>
           <p>Rhylee and Brock will be married in an intimate ceremony at St. Vincent Bacillica.</p>
@@ -28,7 +28,7 @@ class Accomodations extends Component {
         <div className="col-6">
         <div className='card'>
           <i class="fas fa-glass-cheers fa-3x"></i>
-          <h4 className='title-header'>AFTERWARDS</h4>
+          <h4 className='title-header'>The Celebration</h4>
           <h4>2. Happily Ever After Party at Stone Water</h4>
           <hr/>
           <p>From <strong>6 to 9pm</strong> we would love to welcome you to Stone water to as we celebrate our marriage. Come enjoy live music provided by <strong>The Jason Kendal Band</strong>, Dancing, Small plates, and Drinks!</p>
