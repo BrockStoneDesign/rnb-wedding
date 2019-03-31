@@ -15,15 +15,15 @@ class Accomodations extends Component {
                     <div className="col-6">
                         <div className='card'>
                             
-                            <i class="fas fa-plane fa-3x"></i>
+                            <i className="fas fa-plane fa-3x"></i>
                             <h3>Flights / Airports</h3>
                             
                             <hr/>
                             <p><strong>1. Arnold Palmer Regional Airport</strong></p>
                             <p>Small, local airport. Can be a money saver for some that can fly direct to this airport. A added bonus is you fly over St. Vincent where Rhylee and Brock will be wed!</p>
                             
-                            <a href='tel:7245398100'><i class="fas fa-phone"></i> Call to book a flight now <i class="fas fa-long-arrow-alt-right"></i></a>
-                            <a href='http://www.palmerairport.com/'><i class="fab fa-chrome"></i> palmerairport.com</a>
+                            <a href='tel:7245398100'><i className="fas fa-phone"></i> Call to book a flight now <i className="fas fa-long-arrow-alt-right"></i></a>
+                            <a href='http://www.palmerairport.com/'><i className="fab fa-chrome"></i> palmerairport.com</a>
                             
                            
                             <div id='airport-sec'>
@@ -31,7 +31,7 @@ class Accomodations extends Component {
                                 <p>Pittsburgh International Airport, formerly Greater Pittsburgh International Airport in the suburbs of Pittsburgh, Pennsylvania</p>
                             </div>
 
-                            <a href='http://www.flypittsburgh.com/'><i class="fab fa-chrome"></i> flypittsburgh.com</a>
+                            <a href='http://www.flypittsburgh.com/'><i className="fab fa-chrome"></i> flypittsburgh.com</a>
                         
                         </div>
                     </div>
@@ -39,7 +39,7 @@ class Accomodations extends Component {
                     <div className="col-6">
                         <div className='card'>
                             
-                            <i class="fas fa-h-square fa-3x"></i>
+                            <i className="fas fa-h-square fa-3x"></i>
                             <h3>The Hotel</h3>
                             
                             <hr/>
@@ -51,8 +51,8 @@ class Accomodations extends Component {
                                 <p>The hotel also offers a shuttle service which can take you to and from the 'Happily Ever After Party' (However, you will need to consider transport to / from the Church)</p>
                             </div>
                             
-                            <a href='tel:7248343555'><i class="fas fa-phone"></i> Call to book a room now <i class="fas fa-long-arrow-alt-right"></i></a>
-                            <a href='https://www.marriott.com/hotels/travel/pitgb-courtyard-pittsburgh-greensburg/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2'><i class="fab fa-chrome"></i> marriott.com</a>
+                            <a href='tel:7248343555'><i className="fas fa-phone"></i> Call to book a room now <i className="fas fa-long-arrow-alt-right"></i></a>
+                            <a href='https://www.marriott.com/hotels/travel/pitgb-courtyard-pittsburgh-greensburg/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2'><i className="fab fa-chrome"></i> marriott.com</a>
                         
                         </div>
                     </div>

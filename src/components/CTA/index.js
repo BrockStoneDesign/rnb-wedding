@@ -5,8 +5,8 @@ import Countdown from '../CountDown'
 class CTA extends Component {
   render() {
     return (
-      <div class="parent">
-		  <div class="column main">
+      <div className="parent">
+		  <div className="column main">
 		  	<img width={50} src={RBLogo} className="App-logo" alt="logo" />
 		  	<div className='welcome-desc'>
 		  		<h1>Rhylee<br/>&amp;<br/>Brock</h1>
@@ -16,7 +16,7 @@ class CTA extends Component {
 		  		<button className='button' onClick={()=>console.log('CLICKED')}>read our story</button>
 		  	</div>
 		  </div>
-		   <div class="column sidebar">
+		   <div className="column sidebar">
 		   </div>
 		</div>
     );

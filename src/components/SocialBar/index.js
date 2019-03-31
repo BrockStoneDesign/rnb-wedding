@@ -8,8 +8,8 @@ class SocialBar extends Component {
             <div className="row">
                 <div className='col-12'>
                   <h1>Come be Social!</h1>
-                  <h2><i class="fab fa-facebook-square fa-2x"></i>  <i class="fab fa-instagram fa-2x"></i>  <i class="fab fa-snapchat-square fa-2x"></i></h2>
-                  <h3>Please use <i class="fas fa-angle-double-right"></i> #TwoBirdsOneStone</h3>
+                  <h2><i className="fab fa-facebook-square fa-2x"></i>  <i className="fab fa-instagram fa-2x"></i>  <i className="fab fa-snapchat-square fa-2x"></i></h2>
+                  <h3>Please use <i className="fas fa-angle-double-right"></i> #TwoBirdsOneStone</h3>
                   <p><strong>Also look for our custom Snapchat filter!</strong></p>
                 </div>
               </div>
