@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/rnb-wedding/precache-manifest.b5c87bba28bceee8004958319c504f87.js"
+  "/rnb-wedding/precache-manifest.de256365189a6b2f9faca590eb58fed5.js"
 );
 
 workbox.clientsClaim();
