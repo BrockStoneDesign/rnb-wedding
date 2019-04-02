@@ -7,22 +7,21 @@ class Registry extends Component {
           <div className="container">
             <div className="row">
                 <div className='col-12'>
-                  <h4 className='title-header'>Soon we are to be Mr & Mrs</h4>
-                  <h2>Our Wish</h2>
-                    <p>We don’t need a wedding list of dishes.<br/>
-                    Our life together has already begun<br/>
-                    We have almost everything under the sun:<br/>
-                    Two kettles, two toasters, two microwaves<br/>
-                    Though we also have dreams for which to save.<br/> 
-                    Our dream is to honeymoon in a foreign land<br/> 
-                    And walk along the beach hand in hand.<br/>
-                    If you would like to give us a gift<br/>
-                    A contribution towards this would give us a lift.<br/>
-                    We like to think of it as our ‘Wishing Well’<br/>
-                    Which will be filled with your love, we can tell!<br/>
-                    But the most important thing to say<br/>
-                    Is that you are there to celebrate our day!</p>
-                    </div>      
+                  <h4 className='title-header'></h4>
+                  <h3>A wish from the soon to be Mr & Mrs</h3>
+                    <p>Our life together has already begun,<br/>
+                    we have almost everything under the sun. <br/>
+                    If you should wish to give us a gift, <br/>
+                    a little extra money would sure give us a lift. <br/>
+                    It would go towards a house or our honeymoon,<br/>
+                    and we would always be grateful knowing it is thanks to you!<br/>
+                    <br/>
+                    <br/>
+                    For the traditional gift-giver, Rhylee & Brock are registered at:<br/>
+                    Bed,Bath & Beyond </p>
+
+                    <p><strong>Reg. #547155864- Rhylee & Brock Stone</strong></p>
+                </div>      
               </div>
           </div>
       </div>

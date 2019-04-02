@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import { HashRouter, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 // Import comps.
 import Home from './Home'
@@ -10,10 +10,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <HashRouter basename='/'>
-        <Route path="/" exact component={Home} />
-        <Route path="/dinner/" component={Dinner} />
-        </HashRouter>
+        <Router>
+          <Route path="/" exact component={Home} />
+          <Route path="/dinner/" component={Dinner} />
+        </Router>
       </div>
     )
   }
