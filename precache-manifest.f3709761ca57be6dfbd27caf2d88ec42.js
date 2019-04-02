@@ -24,19 +24,19 @@ self.__precacheManifest = [
     "url": "/rnb-wedding/static/js/runtime~main.f5b1ac92.js"
   },
   {
-    "revision": "9bffa34c2f890a58521e",
-    "url": "/rnb-wedding/static/js/main.9bffa34c.chunk.js"
+    "revision": "f0a249777cbc4b3b6a3c",
+    "url": "/rnb-wedding/static/js/main.f0a24977.chunk.js"
   },
   {
     "revision": "90a130b7646ab7105300",
     "url": "/rnb-wedding/static/js/1.90a130b7.chunk.js"
   },
   {
-    "revision": "9bffa34c2f890a58521e",
+    "revision": "f0a249777cbc4b3b6a3c",
     "url": "/rnb-wedding/static/css/main.3df11c28.chunk.css"
   },
   {
-    "revision": "4ef1dbd0d96083023005b8880fd55bc2",
+    "revision": "2d051aea249e65316edf4d380f3d34c3",
     "url": "/rnb-wedding/index.html"
   }
 ];
