@@ -1,6 +1,4 @@
-import { Router } from 'buttermilk';
 import React, { Component } from 'react';
-
 
 // Styling Imports
 import '../../simple-grid.css'
@@ -21,7 +19,7 @@ import Registry from '../../components/Registry'
 
 class Homepage extends Component {
 
-	// Rhylees example into Programming :) 
+	// Rhylees example into Programming :)
 	iLove(name) {
 		let phrase = 'I love '+name+' !'
 		console.log(phrase)
@@ -31,15 +29,15 @@ class Homepage extends Component {
     return (
       <div className="App">
       	<div className='main-sec'>
-     
+
       	 	<div id='cta-left'>
 			  	<div className='welcome-desc'>
-			  		
+
 			  		{/*<img width={85} src={RBLogo} className="App-logo" alt="logo" />*/}
 			  		<h1 id='us-header'>Rhylee &amp;<br/>Brock</h1>
 
 			  		{/* Getting married */}
-			  		<div id='getting-married'> 
+			  		<div id='getting-married'>
 			  			<p>We're getting married... Again!</p>
 			  		</div>
 
@@ -54,7 +52,7 @@ class Homepage extends Component {
       	 	</div>
 
     	</div>
-       		
+
        		{/* <CTA />*/}
         	<OurStory />
 
