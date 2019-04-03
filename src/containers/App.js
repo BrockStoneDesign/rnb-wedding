@@ -9,9 +9,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Router>
-          <Route path={process.env.PUBLIC_URL + '/'} exact component={Home} />
-          <Route path={process.env.PUBLIC_URL + '/dinner'} component={Dinner} />
+        <Router basename={process.env.PUBLIC_URL}>
+          <Route path='/' exact component={Home} />
+          <Route path='/dinner' component={Dinner} />
         </Router>
       </div>
     )

@@ -20,8 +20,10 @@ class Registry extends Component {
                     For the traditional gift-giver, Rhylee & Brock are registered at:<br/>
                     Bed,Bath & Beyond </p>
 
-                    <p><strong>Reg. #547155864- Rhylee & Brock Stone</strong></p>
-                </div>      
+                    <a href='https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/547155864?eventType=Wedding'>
+                      <button className='button'>View Our Registry</button>
+                    </a>
+                </div>
               </div>
           </div>
       </div>
