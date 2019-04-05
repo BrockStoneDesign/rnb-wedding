@@ -4,8 +4,8 @@ import stv from '../../assets/stv.jpeg';
 class Dinner extends Component {
   render() {
 	return (
-		<div id='dinner-bg'>
-			<div className="container main-section">
+		<div id='dinner-bg' className='rnb-sec'>
+			<div className="container">
 				<div className="row">
 					<div className='col-12'>
 						<h4 className='title-header'>Brock &amp; Rhylee</h4>

@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class OurStory extends Component {
   render() {
     return (
-    <div id='our-story-bg'>
-      <div className="container main-section">
+    <div id='our-story-bg' className='rnb-sec'>
+      <div className="container">
       <div className="row">
         <div className="col-6">
     

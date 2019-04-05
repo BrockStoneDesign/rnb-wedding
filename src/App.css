@@ -56,7 +56,6 @@ a{
 
 .rnb-sec{
   width: 100%;
-  min-height: 100vh;
   padding: 15vh 0px;
 }
 
@@ -196,7 +195,6 @@ MAIN
 
 #ceremony-bg{
   background: linear-gradient(#fff, rgba(255,255,255,0.63), #fff), url('./assets/stv.jpeg') no-repeat center;
-  min-height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -239,11 +237,6 @@ MAIN
   padding: 2px 0px;
   border-top: 1px solid #052236;
   border-bottom: 1px solid #052236;
-}
-
-#getting-married p{
-  font-family: 'Prata', serif;
-  font-size: 18px;
 }
 
 /* -----------------------------------
@@ -304,17 +297,6 @@ CTA
 /* -----------------------------------
 OUR STORY
 ----------------------------------- */
-#our-story-container{
-  min-height: 100vh;
-  padding: 2em 15%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  display: flex;
-  flex-direction: column;
-  font-size: calc(10px + 2vmin);
-}
-
 .welcome-desc{
   clear: both;
   padding: 1em 0;
@@ -323,7 +305,6 @@ OUR STORY
 /*Story*/
 #our-story-pic{
   height: 75vh;
-  transform: rotate(3deg);
   background: url('./assets/rnb-brew.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -412,6 +393,56 @@ OUR STORY
   transform: rotateX(180deg);
 }
 
+#rnb{
+      display: none;
+    }
+
+
+.pulsate {
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.5;
+}
+.pulsate p{
+  margin-bottom: 2px;
+}
+
+#rnb-loader{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  z-index: 20000;
+  text-align: center;
+  transition-duration: 1s;
+}
+
+
+img#rnb-loader-icon{
+    text-align: center;
+    margin: 0 auto;
+    padding: 25vh 0px 0px;
+}
+
+
+
+@-webkit-keyframes pulsate {
+    0% { 
+        opacity: 0.2;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.2;
+    }
+}
+
+.hide{
+  opacity: 0;
+}
 
 
 @media only screen and (min-width: 641px){
@@ -484,11 +515,21 @@ OUR STORY
 @media (min-width: 481px) and (max-width: 767px) {
   
    #cta-left{
-          width: 95%;
-        }
-        #cta-right{
-          display: none;
-        }
+      width: 100%;
+      height: 100vh;
+      padding: 10px;
+    }
+    #us-header{
+      font-size: 1em;
+    }
+    #getting-married {
+        margin: 0 10px 2em;
+    }
+    #cta-right{
+      display: none;
+    }
+
+
   
 }
 
@@ -498,11 +539,38 @@ OUR STORY
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
- #cta-left{
-          width: 95%;
-        }
+
+    h2{
+      font-size: 2em;
+    }
+        #cta-left{
+          width: 100%;
+          padding: 10px;
+          position: absolute;
+          bottom: 0px;
+       }
+    #getting-married {
+        margin: 0 10px 2em;
+    }
+    #us-header{
+      font-size: 3em;
+      line-height: 1em;
+    }
         #cta-right{
           display: none;
         }
+
+
+    .main-sec img{
+      position: absolute;
+      top: 0;
+      /*background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;*/
+    }
+
+    #rnb{
+      display: block;
+    }
   
 }

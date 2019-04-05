@@ -10,7 +10,7 @@ class CTA extends Component {
 		  	<img width={50} src={RBLogo} className="App-logo" alt="logo" />
 		  	<div className='welcome-desc'>
 		  		<h1>Rhylee<br/>&amp;<br/>Brock</h1>
-		  		<p>We're getting married... Again!</p>
+		  		<p>We're getting married!</p>
 		  		<Countdown date={`2019-05-14T00:00:00`} />
 
 		  		<button className='button' onClick={()=>console.log('CLICKED')}>read our story</button>

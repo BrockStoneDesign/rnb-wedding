@@ -5,7 +5,7 @@ class Accomodations extends Component {
   render() {
     return (
     <div id='ceremony-bg' className='rnb-sec'>
-      <div className="container main-section">
+      <div className="container">
       <div className="row">
         <div className='col-12'>
           <h4 className='title-header'>The Big Day</h4>
